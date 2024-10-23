@@ -9,6 +9,8 @@ public class factorial {
             temp--;
         }
         return fact;
+        // or we can simply run a for loop from i=2 to n and multiply each iteration to give factotial
+        // or we can aso use recursion with the logic n*fact(n-1) and return when n == 1
     }
     public static void main (String args[]){
         int n;
